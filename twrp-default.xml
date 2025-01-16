@@ -111,8 +111,9 @@
 
     <!-- LAST: Remove unused projects for minimal manifest -->
  <!-- Extra -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+<!--    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="lab" revision="arrow-11.0" />
+-->
     <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_earth" remote="me" revision="lineage-21"/>
     
     <include name="remove-minimal.xml"/>
