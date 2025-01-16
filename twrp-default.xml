@@ -4,8 +4,6 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me"/>
     
-    <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-    <remote name="lab" fetch="https://github.com" />
     <remote name="me" fetch="https://github.com/mt6768-dev" />
     
     <remote name="LineageOS"
