@@ -4,7 +4,7 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me"/>
 
-    <remote name="me" fetch="https://github.com/mt6768-dev" />
+    <remote name="me" fetch="https://github.com/Edhic1" />
 
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"
