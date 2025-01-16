@@ -4,6 +4,8 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me"/>
 
+    <remote name="me" fetch="https://github.com/mt6768-dev" />
+
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org"/>
@@ -110,5 +112,8 @@
     <project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
 
     <!-- LAST: Remove unused projects for minimal manifest -->
+ <!-- Extra -->
+    <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_earth" remote="me" revision="lineage-21"/>
+
     <include name="remove-minimal.xml"/>
 </manifest>
